@@ -1,0 +1,359 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "chassis_number",
+        "cost_of_vehicle",
+        "dealer_name",
+        "dealer_name_ciphertext",
+        "down_payment_amount",
+        "engine_displacement_cc",
+        "engine_number",
+        "grid_value_of_the_vehicle",
+        "asset_insurance_amount",
+        "insurance_assessement_value",
+        "ltr_ratio",
+        "ltv_percentage",
+        "manufacturer_year",
+        "number_of_vehicles_owned",
+        "on_road_price",
+        "rc_in_hirer_name",
+        "rc_in_hirer_name_ciphertext",
+        "rto_reg_number",
+        "type_of_vehicle",
+        "vehicle_age",
+        "vehicle_age_to_loan_maturity",
+        "vehicle_buyer_category",
+        "vehicle_buyer_type",
+        "vehicle_category",
+        "vehicle_make",
+        "vehicle_manufacturer",
+        "vehicle_model",
+        "vehicle_ownership",
+        "vehicle_present_market_value",
+        "vehicle_purchase_price",
+        "vehicle_reg_no",
+        "vehicle_seat_capacity",
+        "vehicle_type_used_or_new",
+        "vehicle_variant"
+    ],
+    "properties": {
+        "chassis_number": {
+            "type": "string",
+            "default": "",
+            "title": "The chassis_number Schema",
+            "examples": [
+                "me4jc855kld017587"
+            ]
+        },
+        "cost_of_vehicle": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The cost_of_vehicle Schema",
+            "examples": [
+                75661.0
+            ]
+        },
+        "dealer_name": {
+            "type": "string",
+            "default": "",
+            "title": "The dealer_name Schema",
+            "examples": [
+                "sri ram motors"
+            ]
+        },
+        "dealer_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The dealer_name_ciphertext Schema",
+            "examples": [
+                "17c8ccdopubsaad80ukjkpssfmfijjpuxwax4msrgrpro0mo6exot0xa"
+            ]
+        },
+        "down_payment_amount": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The down_payment_amount Schema",
+            "examples": [
+                14500.0
+            ]
+        },
+        "engine_displacement_cc": {
+            "type": "integer",
+            "default": 0,
+            "title": "The engine_displacement_cc Schema",
+            "examples": [
+                12
+            ]
+        },
+        "engine_number": {
+            "type": "string",
+            "default": "",
+            "title": "The engine_number Schema",
+            "examples": [
+                "jf17elmgb07640"
+            ]
+        },
+        "grid_value_of_the_vehicle": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The grid_value_of_the_vehicle Schema",
+            "examples": [
+                75661.0
+            ]
+        },
+        "asset_insurance_amount": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The asset_insurance_amount Schema",
+            "examples": [
+                6454.0
+            ]
+        },
+        "insurance_assessement_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The insurance_assessement_value Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "ltr_ratio": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltr_ratio Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "ltv_percentage": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltv_percentage Schema",
+            "examples": [
+                77.532217270866
+            ]
+        },
+        "manufacturer_year": {
+            "type": "integer",
+            "default": 0,
+            "title": "The manufacturer_year Schema",
+            "examples": [
+                1234
+            ]
+        },
+        "number_of_vehicles_owned": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_vehicles_owned Schema",
+            "examples": [
+                12
+            ]
+        },
+        "on_road_price": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The on_road_price Schema",
+            "examples": [
+                77500.0
+            ]
+        },
+        "rc_in_hirer_name": {
+            "type": "string",
+            "default": "",
+            "title": "The rc_in_hirer_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "rc_in_hirer_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The rc_in_hirer_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "rto_reg_number": {
+            "type": "string",
+            "default": "",
+            "title": "The rto_reg_number Schema",
+            "examples": [
+                "TN30CB3928"
+            ]
+        },
+        "type_of_vehicle": {
+            "type": "string",
+            "default": "",
+            "title": "The type_of_vehicle Schema",
+            "examples": [
+                "new"
+            ]
+        },
+        "vehicle_age": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The vehicle_age Schema",
+            "examples": [
+                -
+                798.0
+            ]
+        },
+        "vehicle_age_to_loan_maturity": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The vehicle_age_to_loan_maturity Schema",
+            "examples": [
+                -
+                3.5
+            ]
+        },
+        "vehicle_buyer_category": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_buyer_category Schema",
+            "examples": [
+                "b"
+            ]
+        },
+        "vehicle_buyer_type": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_buyer_type Schema",
+            "examples": [
+                "self_employed"
+            ]
+        },
+        "vehicle_category": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_category Schema",
+            "examples": [
+                "a"
+            ]
+        },
+        "vehicle_make": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_make Schema",
+            "examples": [
+                "tvs"
+            ]
+        },
+        "vehicle_manufacturer": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_manufacturer Schema",
+            "examples": [
+                "honda"
+            ]
+        },
+        "vehicle_model": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_model Schema",
+            "examples": [
+                "disk bs6"
+            ]
+        },
+        "vehicle_ownership": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_ownership Schema",
+            "examples": [
+                "owned"
+            ]
+        },
+        "vehicle_present_market_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The vehicle_present_market_value Schema",
+            "examples": [
+                75661.0
+            ]
+        },
+        "vehicle_purchase_price": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The vehicle_purchase_price Schema",
+            "examples": [
+                77500.0
+            ]
+        },
+        "vehicle_reg_no": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_reg_no Schema",
+            "examples": [
+                "MH26BY4308"
+            ]
+        },
+        "vehicle_seat_capacity": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_seat_capacity Schema",
+            "examples": [
+                "2"
+            ]
+        },
+        "vehicle_type_used_or_new": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_type_used_or_new Schema",
+            "examples": [
+                "new"
+            ]
+        },
+        "vehicle_variant": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_variant Schema",
+            "examples": [
+                "goods"
+            ]
+        }
+    },
+    "examples": [{
+        "chassis_number": "me4jc855kld017587",
+        "cost_of_vehicle": 75661.0,
+        "dealer_name": "sri ram motors",
+        "dealer_name_ciphertext": "17c8ccdopubsaad80ukjkpssfmfijjpuxwax4msrgrpro0mo6exot0xa",
+        "down_payment_amount": 14500.0,
+        "engine_displacement_cc": 12,
+        "engine_number": "jf17elmgb07640",
+        "grid_value_of_the_vehicle": 75661.0,
+        "asset_insurance_amount": 6454.0,
+        "insurance_assessement_value": 0.0,
+        "ltr_ratio": 12.5,
+        "ltv_percentage": 77.532217270866,
+        "manufacturer_year": 1234,
+        "number_of_vehicles_owned": 12,
+        "on_road_price": 77500.0,
+        "rc_in_hirer_name": "string",
+        "rc_in_hirer_name_ciphertext": "text",
+        "rto_reg_number": "TN30CB3928",
+        "type_of_vehicle": "new",
+        "vehicle_age":
+            -
+            798.0,
+        "vehicle_age_to_loan_maturity":
+            -
+            3.5,
+        "vehicle_buyer_category": "b",
+        "vehicle_buyer_type": "self_employed",
+        "vehicle_category": "a",
+        "vehicle_make": "tvs",
+        "vehicle_manufacturer": "honda",
+        "vehicle_model": "disk bs6",
+        "vehicle_ownership": "owned",
+        "vehicle_present_market_value": 75661.0,
+        "vehicle_purchase_price": 77500.0,
+        "vehicle_reg_no": "MH26BY4308",
+        "vehicle_seat_capacity": "2",
+        "vehicle_type_used_or_new": "new",
+        "vehicle_variant": "goods"
+    }]
+}
