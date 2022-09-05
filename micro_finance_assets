@@ -1,0 +1,123 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "centre_id",
+        "centre_name",
+        "centre_size",
+        "distance_of_house_from_branch",
+        "group_id",
+        "group_identification_number",
+        "group_name",
+        "number_of_active_lenders",
+        "number_of_banks",
+        "number_of_mfi_nbfc",
+        "total_outstanding_loan_amount"
+    ],
+    "properties": {
+        "centre_id": {
+            "type": "string",
+            "default": "",
+            "title": "The centre_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "centre_name": {
+            "type": "string",
+            "default": "",
+            "title": "The centre_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "centre_size": {
+            "type": "integer",
+            "default": 0,
+            "title": "The centre_size Schema",
+            "examples": [
+                12
+            ]
+        },
+        "distance_of_house_from_branch": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The distance_of_house_from_branch Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "group_id": {
+            "type": "string",
+            "default": "",
+            "title": "The group_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "group_identification_number": {
+            "type": "integer",
+            "default": 0,
+            "title": "The group_identification_number Schema",
+            "examples": [
+                12
+            ]
+        },
+        "group_name": {
+            "type": "string",
+            "default": "",
+            "title": "The group_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "number_of_active_lenders": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_active_lenders Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_banks": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_banks Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_mfi_nbfc": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_mfi_nbfc Schema",
+            "examples": [
+                12
+            ]
+        },
+        "total_outstanding_loan_amount": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_outstanding_loan_amount Schema",
+            "examples": [
+                12.5
+            ]
+        }
+    },
+    "examples": [{
+        "centre_id": "string",
+        "centre_name": "string",
+        "centre_size": 12,
+        "distance_of_house_from_branch": 12.5,
+        "group_id": "string",
+        "group_identification_number": 12,
+        "group_name": "string",
+        "number_of_active_lenders": 12,
+        "number_of_banks": 12,
+        "number_of_mfi_nbfc": 12,
+        "total_outstanding_loan_amount": 12.5
+    }]
+}
