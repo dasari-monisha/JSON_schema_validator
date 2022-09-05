@@ -1,0 +1,593 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "age_of_the_collateral",
+        "area_type",
+        "asset_category",
+        "asset_id",
+        "asset_is_in_negative_area",
+        "asset_market_value",
+        "asset_owned_by",
+        "asset_valuation_type",
+        "asset_value_self_declared",
+        "building_name",
+        "clss_applicability",
+        "collateral_usage",
+        "depreciation_current_fy",
+        "fiv_status",
+        "geo_limit",
+        "hypothecation_percentage",
+        "hypothecation_value",
+        "ltv_asset_market_value",
+        "ltv_asset_value_self_declared",
+        "machinery_hypothecated_to",
+        "machinery_type",
+        "manufacturer_name",
+        "manufacturer_name_ciphertext",
+        "mortgage_in_favour_of",
+        "name_of_developer",
+        "new_machinery_ltv",
+        "new_machinery_value",
+        "old_machinery_ltv",
+        "old_machinery_value",
+        "project_name",
+        "property_address",
+        "property_address_ciphertext",
+        "property_area",
+        "property_city",
+        "property_city_ciphertext",
+        "property_description",
+        "property_district",
+        "property_district_ciphertext",
+        "property_pincode",
+        "property_pincode_ciphertext",
+        "property_state",
+        "property_state_ciphertext",
+        "property_status",
+        "property_sub_type",
+        "property_tenure",
+        "property_to_be_captured",
+        "property_type",
+        "relationship_to_the_business",
+        "rera_id",
+        "technical_verification",
+        "total_number_of_machines",
+        "total_value_of_machines",
+        "type_of_purchase",
+        "valuer_name1",
+        "valuer_name2",
+        "verify_by",
+        "wing_name",
+        "ltr"
+    ],
+    "properties": {
+        "age_of_the_collateral": {
+            "type": "integer",
+            "default": 0,
+            "title": "The age_of_the_collateral Schema",
+            "examples": [
+                12
+            ]
+        },
+        "area_type": {
+            "type": "string",
+            "default": "",
+            "title": "The area_type Schema",
+            "examples": [
+                "2397"
+            ]
+        },
+        "asset_category": {
+            "type": "string",
+            "default": "",
+            "title": "The asset_category Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "asset_id": {
+            "type": "string",
+            "default": "",
+            "title": "The asset_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "asset_is_in_negative_area": {
+            "type": "string",
+            "default": "",
+            "title": "The asset_is_in_negative_area Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "asset_market_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The asset_market_value Schema",
+            "examples": [
+                21593600.0
+            ]
+        },
+        "asset_owned_by": {
+            "type": "string",
+            "default": "",
+            "title": "The asset_owned_by Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "asset_valuation_type": {
+            "type": "string",
+            "default": "",
+            "title": "The asset_valuation_type Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "asset_value_self_declared": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The asset_value_self_declared Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "building_name": {
+            "type": "string",
+            "default": "",
+            "title": "The building_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "clss_applicability": {
+            "type": "string",
+            "default": "",
+            "title": "The clss_applicability Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "collateral_usage": {
+            "type": "string",
+            "default": "",
+            "title": "The collateral_usage Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "depreciation_current_fy": {
+            "type": "integer",
+            "default": 0,
+            "title": "The depreciation_current_fy Schema",
+            "examples": [
+                12
+            ]
+        },
+        "fiv_status": {
+            "type": "string",
+            "default": "",
+            "title": "The fiv_status Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "geo_limit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The geo_limit Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "hypothecation_percentage": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The hypothecation_percentage Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "hypothecation_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The hypothecation_value Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "ltv_asset_market_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltv_asset_market_value Schema",
+            "examples": [
+                49.2894422
+            ]
+        },
+        "ltv_asset_value_self_declared": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltv_asset_value_self_declared Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "machinery_hypothecated_to": {
+            "type": "string",
+            "default": "",
+            "title": "The machinery_hypothecated_to Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "machinery_type": {
+            "type": "string",
+            "default": "",
+            "title": "The machinery_type Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "manufacturer_name": {
+            "type": "string",
+            "default": "",
+            "title": "The manufacturer_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "manufacturer_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The manufacturer_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "mortgage_in_favour_of": {
+            "type": "string",
+            "default": "",
+            "title": "The mortgage_in_favour_of Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "name_of_developer": {
+            "type": "string",
+            "default": "",
+            "title": "The name_of_developer Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "new_machinery_ltv": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The new_machinery_ltv Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "new_machinery_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The new_machinery_value Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "old_machinery_ltv": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The old_machinery_ltv Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "old_machinery_value": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The old_machinery_value Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "project_name": {
+            "type": "string",
+            "default": "",
+            "title": "The project_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_address": {
+            "type": "string",
+            "default": "",
+            "title": "The property_address Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The property_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "property_area": {
+            "type": "string",
+            "default": "",
+            "title": "The property_area Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_city": {
+            "type": "string",
+            "default": "",
+            "title": "The property_city Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_city_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The property_city_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "property_description": {
+            "type": "string",
+            "default": "",
+            "title": "The property_description Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_district": {
+            "type": "string",
+            "default": "",
+            "title": "The property_district Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_district_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The property_district_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "property_pincode": {
+            "type": "integer",
+            "default": 0,
+            "title": "The property_pincode Schema",
+            "examples": [
+                12
+            ]
+        },
+        "property_pincode_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The property_pincode_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "property_state": {
+            "type": "string",
+            "default": "",
+            "title": "The property_state Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_state_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The property_state_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "property_status": {
+            "type": "string",
+            "default": "",
+            "title": "The property_status Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_sub_type": {
+            "type": "string",
+            "default": "",
+            "title": "The property_sub_type Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_tenure": {
+            "type": "integer",
+            "default": 0,
+            "title": "The property_tenure Schema",
+            "examples": [
+                12
+            ]
+        },
+        "property_to_be_captured": {
+            "type": "string",
+            "default": "",
+            "title": "The property_to_be_captured Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "property_type": {
+            "type": "string",
+            "default": "",
+            "title": "The property_type Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "relationship_to_the_business": {
+            "type": "string",
+            "default": "",
+            "title": "The relationship_to_the_business Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "rera_id": {
+            "type": "string",
+            "default": "",
+            "title": "The rera_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "technical_verification": {
+            "type": "string",
+            "default": "",
+            "title": "The technical_verification Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "total_number_of_machines": {
+            "type": "integer",
+            "default": 0,
+            "title": "The total_number_of_machines Schema",
+            "examples": [
+                12
+            ]
+        },
+        "total_value_of_machines": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_value_of_machines Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "type_of_purchase": {
+            "type": "string",
+            "default": "",
+            "title": "The type_of_purchase Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "valuer_name1": {
+            "type": "string",
+            "default": "",
+            "title": "The valuer_name1 Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "valuer_name2": {
+            "type": "string",
+            "default": "",
+            "title": "The valuer_name2 Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "verify_by": {
+            "type": "string",
+            "default": "",
+            "title": "The verify_by Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "wing_name": {
+            "type": "string",
+            "default": "",
+            "title": "The wing_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "ltr": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltr Schema",
+            "examples": [
+                12.5
+            ]
+        }
+    },
+    "examples": [{
+        "age_of_the_collateral": 12,
+        "area_type": "2397",
+        "asset_category": "string",
+        "asset_id": "string",
+        "asset_is_in_negative_area": "string",
+        "asset_market_value": 21593600.0,
+        "asset_owned_by": "string",
+        "asset_valuation_type": "string",
+        "asset_value_self_declared": 12.5,
+        "building_name": "string",
+        "clss_applicability": "string",
+        "collateral_usage": "string",
+        "depreciation_current_fy": 12,
+        "fiv_status": "string",
+        "geo_limit": 12.5,
+        "hypothecation_percentage": 12.5,
+        "hypothecation_value": 12.5,
+        "ltv_asset_market_value": 49.2894422,
+        "ltv_asset_value_self_declared": 12.5,
+        "machinery_hypothecated_to": "string",
+        "machinery_type": "string",
+        "manufacturer_name": "string",
+        "manufacturer_name_ciphertext": "text",
+        "mortgage_in_favour_of": "string",
+        "name_of_developer": "string",
+        "new_machinery_ltv": 12.5,
+        "new_machinery_value": 12.5,
+        "old_machinery_ltv": 12.5,
+        "old_machinery_value": 12.5,
+        "project_name": "string",
+        "property_address": "string",
+        "property_address_ciphertext": "text",
+        "property_area": "string",
+        "property_city": "string",
+        "property_city_ciphertext": "text",
+        "property_description": "string",
+        "property_district": "string",
+        "property_district_ciphertext": "text",
+        "property_pincode": 12,
+        "property_pincode_ciphertext": "text",
+        "property_state": "string",
+        "property_state_ciphertext": "text",
+        "property_status": "string",
+        "property_sub_type": "string",
+        "property_tenure": 12,
+        "property_to_be_captured": "string",
+        "property_type": "string",
+        "relationship_to_the_business": "string",
+        "rera_id": "string",
+        "technical_verification": "string",
+        "total_number_of_machines": 12,
+        "total_value_of_machines": 12.5,
+        "type_of_purchase": "string",
+        "valuer_name1": "string",
+        "valuer_name2": "string",
+        "verify_by": "string",
+        "wing_name": "string",
+        "ltr": 12.5
+    }]
+}
