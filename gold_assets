@@ -1,0 +1,329 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "gold_rate_considered",
+        "gross_value_of_jewellery",
+        "gross_weight_of_jewellery",
+        "impurity_weight_for_deduction",
+        "jewellery_id",
+        "jewellery_name",
+        "metal_rate_considered",
+        "net_value_of_jewellery",
+        "net_value_of_jewellery_and_metal",
+        "net_value_of_metal",
+        "net_weight_of_jewellery",
+        "purity_grade",
+        "stone_weight",
+        "type_of_jewellery_ornament",
+        "units_number_of_ornament_type",
+        "value_of_asset",
+        "appraiser_id",
+        "comments",
+        "customer_income_group",
+        "geo_class",
+        "land_holding_description",
+        "land_holding_type",
+        "land_holding_value_in_acres",
+        "loan_purpose_sub_category",
+        "ltv_percentage",
+        "number_of_jewels",
+        "physically_challenged",
+        "reference_number",
+        "source_id",
+        "source_name",
+        "udhayam_registration_number"
+    ],
+    "properties": {
+        "gold_rate_considered": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The gold_rate_considered Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "gross_value_of_jewellery": {
+            "type": "number",
+            "title": "The gross_value_of_jewellery Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "gross_weight_of_jewellery": {
+            "type": "number",
+            "title": "The gross_weight_of_jewellery Schema",
+            "examples": [
+                14.3,
+                12.5
+            ]
+        },
+        "impurity_weight_for_deduction": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The impurity_weight_for_deduction Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "jewellery_id": {
+            "type": "string",
+            "default": "",
+            "title": "The jewellery_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "jewellery_name": {
+            "type": "string",
+            "default": "",
+            "title": "The jewellery_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "metal_rate_considered": {
+            "type": [
+                "string",
+                "number"
+            ],
+            "title": "The metal_rate_considered Schema",
+            "examples": [
+                "4809.0000",
+                5150.0
+            ]
+        },
+        "net_value_of_jewellery": {
+            "type": "number",
+            "title": "The net_value_of_jewellery Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "net_value_of_jewellery_and_metal": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The net_value_of_jewellery_and_metal Schema",
+            "examples": [
+                11571.73
+            ]
+        },
+        "net_value_of_metal": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The net_value_of_metal Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "net_weight_of_jewellery": {
+            "type": "number",
+            "title": "The net_weight_of_jewellery Schema",
+            "examples": [
+                2.75,
+                28.1
+            ]
+        },
+        "purity_grade": {
+            "type": "string",
+            "default": "",
+            "title": "The purity_grade Schema",
+            "examples": [
+                "22k"
+            ]
+        },
+        "stone_weight": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The stone_weight Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "type_of_jewellery_ornament": {
+            "type": "string",
+            "default": "",
+            "title": "The type_of_jewellery_ornament Schema",
+            "examples": [
+                "finger ring"
+            ]
+        },
+        "units_number_of_ornament_type": {
+            "type": "integer",
+            "default": 0,
+            "title": "The units_number_of_ornament_type Schema",
+            "examples": [
+                2
+            ]
+        },
+        "value_of_asset": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The value_of_asset Schema",
+            "examples": [
+                13222.5
+            ]
+        },
+        "appraiser_id": {
+            "type": "string",
+            "default": "",
+            "title": "The appraiser_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "comments": {
+            "type": "string",
+            "default": "",
+            "title": "The comments Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "customer_income_group": {
+            "type": "string",
+            "default": "",
+            "title": "The customer_income_group Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "geo_class": {
+            "type": "string",
+            "default": "",
+            "title": "The geo_class Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "land_holding_description": {
+            "type": "string",
+            "default": "",
+            "title": "The land_holding_description Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "land_holding_type": {
+            "type": "string",
+            "default": "",
+            "title": "The land_holding_type Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "land_holding_value_in_acres": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The land_holding_value_in_acres Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "loan_purpose_sub_category": {
+            "type": "string",
+            "default": "",
+            "title": "The loan_purpose_sub_category Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "ltv_percentage": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltv_percentage Schema",
+            "examples": [
+                64.2734267188416
+            ]
+        },
+        "number_of_jewels": {
+            "type": "string",
+            "default": "",
+            "title": "The number_of_jewels Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "physically_challenged": {
+            "type": "string",
+            "default": "",
+            "title": "The physically_challenged Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "reference_number": {
+            "type": "string",
+            "default": "",
+            "title": "The reference_number Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "source_id": {
+            "type": "string",
+            "default": "",
+            "title": "The source_id Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "source_name": {
+            "type": "string",
+            "default": "",
+            "title": "The source_name Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "udhayam_registration_number": {
+            "type": "string",
+            "default": "",
+            "title": "The udhayam_registration_number Schema",
+            "examples": [
+                "string"
+            ]
+        }
+    },
+    "examples": [{
+        "gold_rate_considered": 12.5,
+        "gross_value_of_jewellery": 12.5,
+        "gross_weight_of_jewellery": 14.3,
+        "impurity_weight_for_deduction": 12.5,
+        "jewellery_id": "string",
+        "jewellery_name": "string",
+        "metal_rate_considered": "4809.0000",
+        "net_value_of_jewellery": 12.5,
+        "net_value_of_jewellery_and_metal": 11571.73,
+        "net_value_of_metal": 12.5,
+        "net_weight_of_jewellery": 2.75,
+        "purity_grade": "22k",
+        "stone_weight": 12.5,
+        "type_of_jewellery_ornament": "finger ring",
+        "units_number_of_ornament_type": 2,
+        "value_of_asset": 13222.5,
+        "appraiser_id": "string",
+        "comments": "string",
+        "customer_income_group": "string",
+        "geo_class": "string",
+        "gross_value_of_jewellery": 12.5,
+        "gross_weight_of_jewellery": 12.5,
+        "land_holding_description": "string",
+        "land_holding_type": "string",
+        "land_holding_value_in_acres": 12.5,
+        "loan_purpose_sub_category": "string",
+        "ltv_percentage": 64.2734267188416,
+        "metal_rate_considered": 5150.0,
+        "net_value_of_jewellery": 12.5,
+        "net_weight_of_jewellery": 28.1,
+        "number_of_jewels": "string",
+        "physically_challenged": "string",
+        "reference_number": "string",
+        "source_id": "string",
+        "source_name": "string",
+        "udhayam_registration_number": "string"
+    }]
+}
