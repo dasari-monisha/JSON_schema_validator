@@ -1,333 +1,333 @@
 {
-    "$schema": "https://json-schema.org/draft/2019-09/schema",
-    "$id": "http://example.com/example.json",
-    "type": "object",
-    "default": {},
-    "title": "Root Schema",
-    "required": [
-        "chassis_number",
-        "cost_of_vehicle",
-        "dealer_name",
-        "dealer_name_ciphertext",
-        "down_payment_amount",
-        "engine_displacement_cc",
-        "engine_number",
-        "grid_value_of_the_vehicle",
-        "insurance_assessement_value",
-        "ltv_percentage",
-        "number_of_vehicles_owned",
-        "on_road_price",
-        "rc_in_hirer_name",
-        "rc_in_hirer_name_ciphertext",
-        "rto_reg_number",
-        "rto_reg_number_ciphertext",
-        "type_of_vehicle",
-        "vehicle_age",
-        "vehicle_age_to_loan_maturity",
-        "vehicle_buyer_category",
-        "vehicle_buyer_type",
-        "vehicle_make",
-        "vehicle_manufacturer",
-        "vehicle_model",
-        "vehicle_ownership",
-        "vehicle_present_market_value",
-        "vehicle_purchase_price",
-        "vehicle_reg_no",
-        "vehicle_reg_no_ciphertext",
-        "vehicle_seat_capacity",
-        "vehicle_type_used_or_new",
-        "vehicle_variant"
-    ],
-    "properties": {
-        "chassis_number": {
-            "type": "string",
-            "default": "",
-            "title": "The chassis_number Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "cost_of_vehicle": {
-            "type": "integer",
-            "default": 0,
-            "title": "The cost_of_vehicle Schema",
-            "examples": [
-                12
-            ]
-        },
-        "dealer_name": {
-            "type": "string",
-            "default": "",
-            "title": "The dealer_name Schema",
-            "examples": [
-                "texr"
-            ]
-        },
-        "dealer_name_ciphertext": {
-            "type": "string",
-            "default": "",
-            "title": "The dealer_name_ciphertext Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "down_payment_amount": {
-            "type": "integer",
-            "default": 0,
-            "title": "The down_payment_amount Schema",
-            "examples": [
-                12
-            ]
-        },
-        "engine_displacement_cc": {
-            "type": "integer",
-            "default": 0,
-            "title": "The engine_displacement_cc Schema",
-            "examples": [
-                12
-            ]
-        },
-        "engine_number": {
-            "type": "string",
-            "default": "",
-            "title": "The engine_number Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "grid_value_of_the_vehicle": {
-            "type": "integer",
-            "default": 0,
-            "title": "The grid_value_of_the_vehicle Schema",
-            "examples": [
-                12
-            ]
-        },
-        "insurance_assessement_value": {
-            "type": "integer",
-            "default": 0,
-            "title": "The insurance_assessement_value Schema",
-            "examples": [
-                12
-            ]
-        },
-        "ltv_percentage": {
-            "type": "integer",
-            "default": 0,
-            "title": "The ltv_percentage Schema",
-            "examples": [
-                12
-            ]
-        },
-        "number_of_vehicles_owned": {
-            "type": "integer",
-            "default": 0,
-            "title": "The number_of_vehicles_owned Schema",
-            "examples": [
-                12
-            ]
-        },
-        "on_road_price": {
-            "type": "integer",
-            "default": 0,
-            "title": "The on_road_price Schema",
-            "examples": [
-                12
-            ]
-        },
-        "rc_in_hirer_name": {
-            "type": "string",
-            "default": "",
-            "title": "The rc_in_hirer_name Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "rc_in_hirer_name_ciphertext": {
-            "type": "string",
-            "default": "",
-            "title": "The rc_in_hirer_name_ciphertext Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "rto_reg_number": {
-            "type": "string",
-            "default": "",
-            "title": "The rto_reg_number Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "rto_reg_number_ciphertext": {
-            "type": "string",
-            "default": "",
-            "title": "The rto_reg_number_ciphertext Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "type_of_vehicle": {
-            "type": "string",
-            "default": "",
-            "title": "The type_of_vehicle Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_age": {
-            "type": "integer",
-            "default": 0,
-            "title": "The vehicle_age Schema",
-            "examples": [
-                12
-            ]
-        },
-        "vehicle_age_to_loan_maturity": {
-            "type": "number",
-            "default": 0.0,
-            "title": "The vehicle_age_to_loan_maturity Schema",
-            "examples": [
-                12.5
-            ]
-        },
-        "vehicle_buyer_category": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_buyer_category Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_buyer_type": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_buyer_type Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_make": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_make Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_manufacturer": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_manufacturer Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_model": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_model Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_ownership": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_ownership Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_present_market_value": {
-            "type": "integer",
-            "default": 0,
-            "title": "The vehicle_present_market_value Schema",
-            "examples": [
-                12
-            ]
-        },
-        "vehicle_purchase_price": {
-            "type": "integer",
-            "default": 0,
-            "title": "The vehicle_purchase_price Schema",
-            "examples": [
-                12
-            ]
-        },
-        "vehicle_reg_no": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_reg_no Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_reg_no_ciphertext": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_reg_no_ciphertext Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_seat_capacity": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_seat_capacity Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_type_used_or_new": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_type_used_or_new Schema",
-            "examples": [
-                "text"
-            ]
-        },
-        "vehicle_variant": {
-            "type": "string",
-            "default": "",
-            "title": "The vehicle_variant Schema",
-            "examples": [
-                "text"
-            ]
-        }
-    },
-    "examples": [{
-        "chassis_number": "text",
-        "cost_of_vehicle": 12,
-        "dealer_name": "texr",
-        "dealer_name_ciphertext": "text",
-        "down_payment_amount": 12,
-        "engine_displacement_cc": 12,
-        "engine_number": "text",
-        "grid_value_of_the_vehicle": 12,
-        "insurance_assessement_value": 12,
-        "ltv_percentage": 12,
-        "number_of_vehicles_owned": 12,
-        "on_road_price": 12,
-        "rc_in_hirer_name": "text",
-        "rc_in_hirer_name_ciphertext": "text",
-        "rto_reg_number": "text",
-        "rto_reg_number_ciphertext": "text",
-        "type_of_vehicle": "text",
-        "vehicle_age": 12,
-        "vehicle_age_to_loan_maturity": 12.5,
-        "vehicle_buyer_category": "text",
-        "vehicle_buyer_type": "text",
-        "vehicle_make": "text",
-        "vehicle_manufacturer": "text",
-        "vehicle_model": "text",
-        "vehicle_ownership": "text",
-        "vehicle_present_market_value": 12,
-        "vehicle_purchase_price": 12,
-        "vehicle_reg_no": "text",
-        "vehicle_reg_no_ciphertext": "text",
-        "vehicle_seat_capacity": "text",
-        "vehicle_type_used_or_new": "text",
-        "vehicle_variant": "text"
-    }]
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+      "chassis_number",
+      "cost_of_vehicle",
+      "dealer_name",
+      "dealer_name_ciphertext",
+      "down_payment_amount",
+      "engine_displacement_cc",
+      "engine_number",
+      "grid_value_of_the_vehicle",
+      "insurance_assessement_value",
+      "ltv_percentage",
+      "number_of_vehicles_owned",
+      "on_road_price",
+      "rc_in_hirer_name",
+      "rc_in_hirer_name_ciphertext",
+      "rto_reg_number",
+      "rto_reg_number_ciphertext",
+      "type_of_vehicle",
+      "vehicle_age",
+      "vehicle_age_to_loan_maturity",
+      "vehicle_buyer_category",
+      "vehicle_buyer_type",
+      "vehicle_make",
+      "vehicle_manufacturer",
+      "vehicle_model",
+      "vehicle_ownership",
+      "vehicle_present_market_value",
+      "vehicle_purchase_price",
+      "vehicle_reg_no",
+      "vehicle_reg_no_ciphertext",
+      "vehicle_seat_capacity",
+      "vehicle_type_used_or_new",
+      "vehicle_variant"
+  ],
+  "properties": {
+      "chassis_number": {
+          "type": "string",
+          "default": "",
+          "title": "The chassis_number Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "cost_of_vehicle": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The cost_of_vehicle Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "dealer_name": {
+          "type": "string",
+          "default": "",
+          "title": "The dealer_name Schema",
+          "examples": [
+              "texr"
+          ]
+      },
+      "dealer_name_ciphertext": {
+          "type": "string",
+          "default": "",
+          "title": "The dealer_name_ciphertext Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "down_payment_amount": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The down_payment_amount Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "engine_displacement_cc": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The engine_displacement_cc Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "engine_number": {
+          "type": "string",
+          "default": "",
+          "title": "The engine_number Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "grid_value_of_the_vehicle": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The grid_value_of_the_vehicle Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "insurance_assessement_value": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The insurance_assessement_value Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "ltv_percentage": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The ltv_percentage Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "number_of_vehicles_owned": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The number_of_vehicles_owned Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "on_road_price": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The on_road_price Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "rc_in_hirer_name": {
+          "type": "string",
+          "default": "",
+          "title": "The rc_in_hirer_name Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "rc_in_hirer_name_ciphertext": {
+          "type": "string",
+          "default": "",
+          "title": "The rc_in_hirer_name_ciphertext Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "rto_reg_number": {
+          "type": "string",
+          "default": "",
+          "title": "The rto_reg_number Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "rto_reg_number_ciphertext": {
+          "type": "string",
+          "default": "",
+          "title": "The rto_reg_number_ciphertext Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "type_of_vehicle": {
+          "type": "string",
+          "default": "",
+          "title": "The type_of_vehicle Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_age": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The vehicle_age Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "vehicle_age_to_loan_maturity": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The vehicle_age_to_loan_maturity Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "vehicle_buyer_category": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_buyer_category Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_buyer_type": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_buyer_type Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_make": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_make Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_manufacturer": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_manufacturer Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_model": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_model Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_ownership": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_ownership Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_present_market_value": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The vehicle_present_market_value Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "vehicle_purchase_price": {
+          "type": "number",
+          "default": 0.0,
+          "title": "The vehicle_purchase_price Schema",
+          "examples": [
+              12.5
+          ]
+      },
+      "vehicle_reg_no": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_reg_no Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_reg_no_ciphertext": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_reg_no_ciphertext Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_seat_capacity": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_seat_capacity Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_type_used_or_new": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_type_used_or_new Schema",
+          "examples": [
+              "text"
+          ]
+      },
+      "vehicle_variant": {
+          "type": "string",
+          "default": "",
+          "title": "The vehicle_variant Schema",
+          "examples": [
+              "text"
+          ]
+      }
+  },
+  "examples": [{
+      "chassis_number": "text",
+      "cost_of_vehicle": 12.5,
+      "dealer_name": "texr",
+      "dealer_name_ciphertext": "text",
+      "down_payment_amount": 12.5,
+      "engine_displacement_cc": 12.5,
+      "engine_number": "text",
+      "grid_value_of_the_vehicle": 12.5,
+      "insurance_assessement_value": 12.5,
+      "ltv_percentage": 12.5,
+      "number_of_vehicles_owned": 12.5,
+      "on_road_price": 12.5,
+      "rc_in_hirer_name": "text",
+      "rc_in_hirer_name_ciphertext": "text",
+      "rto_reg_number": "text",
+      "rto_reg_number_ciphertext": "text",
+      "type_of_vehicle": "text",
+      "vehicle_age": 12.5,
+      "vehicle_age_to_loan_maturity": 12.5,
+      "vehicle_buyer_category": "text",
+      "vehicle_buyer_type": "text",
+      "vehicle_make": "text",
+      "vehicle_manufacturer": "text",
+      "vehicle_model": "text",
+      "vehicle_ownership": "text",
+      "vehicle_present_market_value": 12.5,
+      "vehicle_purchase_price": 12.5,
+      "vehicle_reg_no": "text",
+      "vehicle_reg_no_ciphertext": "text",
+      "vehicle_seat_capacity": "text",
+      "vehicle_type_used_or_new": "text",
+      "vehicle_variant": "text"
+  }]
 }
