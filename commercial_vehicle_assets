@@ -36,9 +36,55 @@
       "vehicle_reg_no_ciphertext",
       "vehicle_seat_capacity",
       "vehicle_type_used_or_new",
-      "vehicle_variant"
+      "vehicle_variant",
+      "asset_insurance_amount",
+      "vehicle_number",
+      "manufacturer_year",
+      "manufacturer_name",
+      "vehicle_type"
   ],
   "properties": {
+
+    "asset_insurance_amount": {
+      "type": "integer",
+      "default": 0,
+      "title": "The asset_insurance_amount Schema",
+      "examples": [
+          50000
+      ]
+  },
+  "vehicle_number": {
+      "type": "string",
+      "default": "",
+      "title": "The vehicle_number Schema",
+      "examples": [
+          "AB 12 CD 3456"
+      ]
+  },
+  "manufacturer_year": {
+      "type": "string",
+      "default": "",
+      "title": "The manufacturer_year Schema",
+      "examples": [
+          "String"
+      ]
+  },
+  "manufacturer_name": {
+      "type": "string",
+      "default": "",
+      "title": "The manufacturer_name Schema",
+      "examples": [
+          "Honda"
+      ]
+  },
+  "vehicle_type": {
+      "type": "string",
+      "default": "",
+      "title": "The vehicle_type Schema",
+      "examples": [
+          "LCV"
+      ]
+  },
       "chassis_number": {
           "type": "string",
           "default": "",
@@ -328,6 +374,11 @@
       "vehicle_reg_no_ciphertext": "text",
       "vehicle_seat_capacity": "text",
       "vehicle_type_used_or_new": "text",
-      "vehicle_variant": "text"
+      "vehicle_variant": "text",
+      "asset_insurance_amount": 50000,
+        "vehicle_number": "AB 12 CD 3456",
+        "manufacturer_year": "String",
+        "manufacturer_name": "Honda",
+        "vehicle_type": "LCV"
   }]
 }
