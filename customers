@@ -1,0 +1,2576 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "aadhar_name_match",
+        "aadhar_name_match_ciphertext",
+        "aadhar_number",
+        "aadhar_reference",
+        "abb_emi_ratio",
+        "account_no",
+        "account_no_ciphertext",
+        "age",
+        "age_ciphertext",
+        "amount_of_loan_settled_in_last_12months",
+        "annual_business_ebitda",
+        "annual_business_turnover",
+        "annual_gross_profit",
+        "annual_income",
+        "annual_net_income",
+        "annual_net_profit",
+        "average_bank_balance",
+        "average_bank_deposit",
+        "bank_account_name",
+        "bank_account_type_for_assessment",
+        "bank_branch_name",
+        "bank_name",
+        "borrower_type_id",
+        "bounces_in_last_12months",
+        "bounces_in_last_6months",
+        "bureau_score",
+        "bureau_vintage",
+        "ca_limit_balance",
+        "ca_total_limit",
+        "caste",
+        "caution_negative_profile",
+        "cibil_score",
+        "ckyc_download_identifier",
+        "client_credit_score",
+        "client_customer_id",
+        "closing_limit_balance",
+        "commercial_bureau_score",
+        "country_of_employment_if_nri",
+        "credit_card_limit",
+        "credit_remarks",
+        "credit_summation",
+        "currency_of_income_considered",
+        "current_address",
+        "current_address_ciphertext",
+        "current_assests",
+        "current_city",
+        "current_city_ciphertext",
+        "current_city_tier",
+        "current_city_tier_ciphertext",
+        "current_country",
+        "current_country_ciphertext",
+        "current_district",
+        "current_district_ciphertext",
+        "current_liabilities",
+        "current_pincode",
+        "current_pincode_ciphertext",
+        "current_ratio",
+        "current_state",
+        "current_state_ciphertext",
+        "current_village",
+        "current_village_ciphertext",
+        "customer_category",
+        "customer_category_ciphertext",
+        "customer_type",
+        "date_of_birth_ciphertext",
+        "dedupe_status",
+        "disposable_income",
+        "dpd_days_last_1_month",
+        "dpd_days_last_3_months",
+        "dpd_on_partner",
+        "driving_license_number",
+        "driving_license_number_ciphertext",
+        "dscr",
+        "education_qualification",
+        "eligibility_as_per_foir",
+        "eligibility_as_per_insr",
+        "eligibility_as_per_ltv",
+        "eligibility_loan_amount",
+        "email",
+        "emi_obligations",
+        "employer_category",
+        "employer_tier",
+        "employment_details",
+        "employment_details_address",
+        "employment_details_address_ciphertext",
+        "employment_details_ciphertext",
+        "employment_details_designation",
+        "employment_details_designation_ciphertext",
+        "employment_details_name",
+        "employment_details_name_ciphertext",
+        "employment_details_years_of_experience",
+        "employment_type",
+        "employment_vintage_current_organisation",
+        "father_name",
+        "father_name_ciphertext",
+        "fcf",
+        "financial_leverage",
+        "financial_type",
+        "first_name",
+        "first_name_ciphertext",
+        "foir",
+        "gender",
+        "gender_ciphertext",
+        "gross_monthly_income",
+        "gst_annual_turnover",
+        "highmark_score",
+        "ifsc_code",
+        "income_source",
+        "insr",
+        "insurance_amount",
+        "insurance_nominee_details",
+        "insurance_nominee_details_ciphertext",
+        "insurance_policy_number",
+        "insurance_premium",
+        "insurance_relationship",
+        "interest_coverage_ratio",
+        "interest_on_debt",
+        "last_name",
+        "last_name_ciphertext",
+        "limit_id",
+        "long_term_liabilities",
+        "ltr",
+        "mailing_address",
+        "mailing_address_ciphertext",
+        "marital_status",
+        "marital_status_ciphertext",
+        "max_dpd_tradeline_last_12months",
+        "max_dpd_tradeline_last_3months",
+        "max_dpd_tradeline_last_6months",
+        "max_overdue_tradeline",
+        "middle_name",
+        "middle_name_ciphertext",
+        "mobile_number",
+        "mobile_verification_flag",
+        "mobile_verification_flag_ciphertext",
+        "monthly_household_income_greater_than_25000",
+        "monthly_installment_amount",
+        "monthly_net_profit",
+        "more_than_30_dpd_in_last_3_months",
+        "more_than_90_dpd_in_last_4_months",
+        "mother_name",
+        "mother_name_ciphertext",
+        "name_of_bureau",
+        "name_of_profession",
+        "name_of_profession_ciphertext",
+        "nationality",
+        "nationality_ciphertext",
+        "nature_of_loan_settled1",
+        "nature_of_loan_settled2",
+        "net_business_income",
+        "net_monthly_income",
+        "no_of_dependants_ciphertext",
+        "number_of_30plus_dpd_in_last_12months",
+        "number_of_30plus_dpd_in_last_3months",
+        "number_of_60plus_dpd_in_last_6months",
+        "number_of_bank_transactions",
+        "number_of_credit_cards",
+        "number_of_dependants",
+        "number_of_enquiries_12months",
+        "number_of_enquiries_3months",
+        "number_of_enquiries_6months",
+        "number_of_inward_chq_returns_current_account",
+        "number_of_inward_chq_returns_savings_account",
+        "number_of_inward_transactions",
+        "number_of_others_writeoffsub_loss_dbt_settled_last_12months",
+        "number_of_outward_chq_returns_current_account",
+        "number_of_outward_chq_returns_savings_account",
+        "number_of_pl_enquiries_in_last_30days",
+        "number_of_writeoff_suitfiled_settled_in_the_last_12months",
+        "number_of_writeoff_suitfiled_settled_in_the_last_36months",
+        "number+of_cc_pl_writeoffsub_loss_dbt_settled_last_12months",
+        "occupation",
+        "occupation_ciphertext",
+        "official_email_id",
+        "opening_limit_balance",
+        "other_income",
+        "partner_branch_code",
+        "partner_branch_name",
+        "partner_score",
+        "partner_score_on_the_customer",
+        "partner_score_on_the_customer_including_bureau_report",
+        "permanent_address",
+        "permanent_address_ciphertext",
+        "permanent_city",
+        "permanent_city_ciphertext",
+        "permanent_city_tier",
+        "permanent_city_tier_ciphertext",
+        "permanent_district",
+        "permanent_district_ciphertext",
+        "permanent_pincode",
+        "permanent_pincode_ciphertext",
+        "permanent_state",
+        "permanent_state_ciphertext",
+        "phone_number",
+        "phone_number_ciphertext",
+        "pincode_verified",
+        "pincode_verified_ciphertext",
+        "place_of_birth",
+        "place_of_birth_ciphertext",
+        "politically_exposed",
+        "property_ownership_flag",
+        "ration_number",
+        "ration_number_ciphertext",
+        "references",
+        "relationship_proof",
+        "relationship_proof_ciphertext",
+        "relationship_with_applicant",
+        "religion",
+        "residence_type_current_address",
+        "residence_type_current_address_ciphertext",
+        "residence_type_permanent_address",
+        "residence_type_permanent_address_ciphertext",
+        "residing_with_applicant",
+        "risk_category",
+        "rp_contact_ref_id",
+        "rp_fund_account_id",
+        "selfie_check_flag",
+        "selfie_check_flag_ciphertext",
+        "sherlock_score",
+        "short_term_liabilities",
+        "spouse_name",
+        "spouse_name_ciphertext",
+        "sub_relationship_with_applicant",
+        "title",
+        "total_approved_limit",
+        "total_business_income_turnover",
+        "total_emi_bounces",
+        "total_existing_obligations",
+        "total_net_worth",
+        "total_number_of_loans",
+        "total_number_of_unsecured_loans",
+        "total_overdue_amount_in_last_12months",
+        "total_work_experience",
+        "udyam_number",
+        "udyam_number_ciphertext",
+        "value_of_total_loans",
+        "value_of_total_outstanding_loans",
+        "value_of_total_unsecured_loans",
+        "viability_ratio",
+        "writeoff_amount_suitfiled_settled_in_last_36_months",
+        "years_of_stay_in_current_address",
+        "years_of_stay_in_current_address_ciphertext",
+        "years_of_stay_in_permanent_address",
+        "years_of_stay_in_permanent_address_ciphertext"
+    ],
+    "properties": {
+        "aadhar_name_match": {
+            "type": "string",
+            "default": "",
+            "title": "The aadhar_name_match Schema",
+            "examples": [
+                "true"
+            ]
+        },
+        "aadhar_name_match_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The aadhar_name_match_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "aadhar_number": {
+            "type": "string",
+            "default": "",
+            "title": "The aadhar_number Schema",
+            "examples": [
+                "xxxx-xxxx-6101"
+            ]
+        },
+        "aadhar_reference": {
+            "type": "string",
+            "default": "",
+            "title": "The aadhar_reference Schema",
+            "examples": [
+                "4bcfdcc8b4109aeb3c8e7c94eca06b87"
+            ]
+        },
+        "abb_emi_ratio": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The abb_emi_ratio Schema",
+            "examples": [
+                104.0
+            ]
+        },
+        "account_no": {
+            "type": "string",
+            "default": "",
+            "title": "The account_no Schema",
+            "examples": [
+                "4190101000447039"
+            ]
+        },
+        "account_no_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The account_no_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "age": {
+            "type": "integer",
+            "default": 0,
+            "title": "The age Schema",
+            "examples": [
+                40
+            ]
+        },
+        "age_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The age_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "amount_of_loan_settled_in_last_12months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The amount_of_loan_settled_in_last_12months Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "annual_business_ebitda": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The annual_business_ebitda Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "annual_business_turnover": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The annual_business_turnover Schema",
+            "examples": [
+                2400000.0
+            ]
+        },
+        "annual_gross_profit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The annual_gross_profit Schema",
+            "examples": [
+                31069.6
+            ]
+        },
+        "annual_income": {
+            "type": "string",
+            "default": "",
+            "title": "The annual_income Schema",
+            "examples": [
+                "450000"
+            ]
+        },
+        "annual_net_income": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The annual_net_income Schema",
+            "examples": [
+                22269.0
+            ]
+        },
+        "annual_net_profit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The annual_net_profit Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "average_bank_balance": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The average_bank_balance Schema",
+            "examples": [
+                7584.792
+            ]
+        },
+        "average_bank_deposit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The average_bank_deposit Schema",
+            "examples": [
+                126791.0
+            ]
+        },
+        "bank_account_name": {
+            "type": "string",
+            "default": "",
+            "title": "The bank_account_name Schema",
+            "examples": [
+                "JAGANNATHHATI"
+            ]
+        },
+        "bank_account_type_for_assessment": {
+            "type": "string",
+            "default": "",
+            "title": "The bank_account_type_for_assessment Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "bank_branch_name": {
+            "type": "string",
+            "default": "",
+            "title": "The bank_branch_name Schema",
+            "examples": [
+                "NA"
+            ]
+        },
+        "bank_name": {
+            "type": "string",
+            "default": "",
+            "title": "The bank_name Schema",
+            "examples": [
+                "STATE BANK OF INDIA"
+            ]
+        },
+        "borrower_type_id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The borrower_type_id Schema",
+            "examples": [
+                1
+            ]
+        },
+        "bounces_in_last_12months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The bounces_in_last_12months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "bounces_in_last_6months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The bounces_in_last_6months Schema",
+            "examples": [
+                2
+            ]
+        },
+        "bureau_score": {
+            "type": "integer",
+            "default": 0,
+            "title": "The bureau_score Schema",
+            "examples": [
+                639
+            ]
+        },
+        "bureau_vintage": {
+            "type": "integer",
+            "default": 0,
+            "title": "The bureau_vintage Schema",
+            "examples": [
+                12
+            ]
+        },
+        "ca_limit_balance": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ca_limit_balance Schema",
+            "examples": [
+                -
+                482158.42
+            ]
+        },
+        "ca_total_limit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ca_total_limit Schema",
+            "examples": [
+                500000.0
+            ]
+        },
+        "caste": {
+            "type": "string",
+            "default": "",
+            "title": "The caste Schema",
+            "examples": [
+                "GENERAL"
+            ]
+        },
+        "caution_negative_profile": {
+            "type": "string",
+            "default": "",
+            "title": "The caution_negative_profile Schema",
+            "examples": [
+                "t"
+            ]
+        },
+        "cibil_score": {
+            "type": "integer",
+            "default": 0,
+            "title": "The cibil_score Schema",
+            "examples": [
+                776
+            ]
+        },
+        "ckyc_download_identifier": {
+            "type": "string",
+            "default": "",
+            "title": "The ckyc_download_identifier Schema",
+            "examples": [
+                "11745126"
+            ]
+        },
+        "client_credit_score": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The client_credit_score Schema",
+            "examples": [
+                8180.0
+            ]
+        },
+        "client_customer_id": {
+            "type": "string",
+            "default": "",
+            "title": "The client_customer_id Schema",
+            "examples": [
+                "00017580-333d-11ec-a40a-29e90c1592c2"
+            ]
+        },
+        "closing_limit_balance": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The closing_limit_balance Schema",
+            "examples": [
+                6100.0
+            ]
+        },
+        "commercial_bureau_score": {
+            "type": "integer",
+            "default": 0,
+            "title": "The commercial_bureau_score Schema",
+            "examples": [
+                12
+            ]
+        },
+        "country_of_employment_if_nri": {
+            "type": "string",
+            "default": "",
+            "title": "The country_of_employment_if_nri Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "credit_card_limit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The credit_card_limit Schema",
+            "examples": [
+                45000.0
+            ]
+        },
+        "credit_remarks": {
+            "type": "string",
+            "default": "",
+            "title": "The credit_remarks Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "credit_summation": {
+            "type": "string",
+            "default": "",
+            "title": "The credit_summation Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "currency_of_income_considered": {
+            "type": "string",
+            "default": "",
+            "title": "The currency_of_income_considered Schema",
+            "examples": [
+                "INR"
+            ]
+        },
+        "current_address": {
+            "type": "string",
+            "default": "",
+            "title": "The current_address Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "current_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_assests": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The current_assests Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "current_city": {
+            "type": "string",
+            "default": "",
+            "title": "The current_city Schema",
+            "examples": [
+                "VISAKHAPATNAM"
+            ]
+        },
+        "current_city_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_city_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_city_tier": {
+            "type": "string",
+            "default": "",
+            "title": "The current_city_tier Schema",
+            "examples": [
+                "tier4"
+            ]
+        },
+        "current_city_tier_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_city_tier_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_country": {
+            "type": "string",
+            "default": "",
+            "title": "The current_country Schema",
+            "examples": [
+                "INDIA"
+            ]
+        },
+        "current_country_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_country_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_district": {
+            "type": "string",
+            "default": "",
+            "title": "The current_district Schema",
+            "examples": [
+                "VISAKHAPATNAM"
+            ]
+        },
+        "current_district_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_district_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_liabilities": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The current_liabilities Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "current_pincode": {
+            "type": "integer",
+            "default": 0,
+            "title": "The current_pincode Schema",
+            "examples": [
+                530000
+            ]
+        },
+        "current_pincode_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_pincode_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_ratio": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The current_ratio Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "current_state": {
+            "type": "string",
+            "default": "",
+            "title": "The current_state Schema",
+            "examples": [
+                "KARNATAKA"
+            ]
+        },
+        "current_state_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_state_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "current_village": {
+            "type": "string",
+            "default": "",
+            "title": "The current_village Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "current_village_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The current_village_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "customer_category": {
+            "type": "string",
+            "default": "",
+            "title": "The customer_category Schema",
+            "examples": [
+                "Student"
+            ]
+        },
+        "customer_category_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The customer_category_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "customer_type": {
+            "type": "string",
+            "default": "",
+            "title": "The customer_type Schema",
+            "examples": [
+                "Individual"
+            ]
+        },
+        "date_of_birth_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The date_of_birth_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "dedupe_status": {
+            "type": "string",
+            "default": "",
+            "title": "The dedupe_status Schema",
+            "examples": [
+                "Failed"
+            ]
+        },
+        "disposable_income": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The disposable_income Schema",
+            "examples": [
+                50409.0
+            ]
+        },
+        "dpd_days_last_1_month": {
+            "type": "integer",
+            "default": 0,
+            "title": "The dpd_days_last_1_month Schema",
+            "examples": [
+                12
+            ]
+        },
+        "dpd_days_last_3_months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The dpd_days_last_3_months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "dpd_on_partner": {
+            "type": "integer",
+            "default": 0,
+            "title": "The dpd_on_partner Schema",
+            "examples": [
+                12
+            ]
+        },
+        "driving_license_number": {
+            "type": "string",
+            "default": "",
+            "title": "The driving_license_number Schema",
+            "examples": [
+                "KA1720200004445"
+            ]
+        },
+        "driving_license_number_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The driving_license_number_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "dscr": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The dscr Schema",
+            "examples": [
+                4.13
+            ]
+        },
+        "education_qualification": {
+            "type": "string",
+            "default": "",
+            "title": "The education_qualification Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "eligibility_as_per_foir": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The eligibility_as_per_foir Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "eligibility_as_per_insr": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The eligibility_as_per_insr Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "eligibility_as_per_ltv": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The eligibility_as_per_ltv Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "eligibility_loan_amount": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The eligibility_loan_amount Schema",
+            "examples": [
+                75000.0
+            ]
+        },
+        "email": {
+            "type": "array",
+            "default": [],
+            "title": "The email Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "String1",
+                    "String2"
+                ]
+            },
+            "examples": [
+                ["String1",
+                    "String2"
+                ]
+            ]
+        },
+        "emi_obligations": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The emi_obligations Schema",
+            "examples": [
+                2400.0
+            ]
+        },
+        "employer_category": {
+            "type": "string",
+            "default": "",
+            "title": "The employer_category Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "employer_tier": {
+            "type": "string",
+            "default": "",
+            "title": "The employer_tier Schema",
+            "examples": [
+                "tier_2"
+            ]
+        },
+        "employment_details": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "employment_details_address": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_address Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "employment_details_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "employment_details_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "employment_details_designation": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_designation Schema",
+            "examples": [
+                "Human Resources"
+            ]
+        },
+        "employment_details_designation_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_designation_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "employment_details_name": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_name Schema",
+            "examples": [
+                "Pritam solutions"
+            ]
+        },
+        "employment_details_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_details_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "employment_details_years_of_experience": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The employment_details_years_of_experience Schema",
+            "examples": [
+                10.0833
+            ]
+        },
+        "employment_type": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_type Schema",
+            "examples": [
+                "Salaried"
+            ]
+        },
+        "employment_vintage_current_organisation": {
+            "type": "string",
+            "default": "",
+            "title": "The employment_vintage_current_organisation Schema",
+            "examples": [
+                "0"
+            ]
+        },
+        "father_name": {
+            "type": "string",
+            "default": "",
+            "title": "The father_name Schema",
+            "examples": [
+                "SAB"
+            ]
+        },
+        "father_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The father_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "fcf": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The fcf Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "financial_leverage": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The financial_leverage Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "financial_type": {
+            "type": "string",
+            "default": "",
+            "title": "The financial_type Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "first_name": {
+            "type": "string",
+            "default": "",
+            "title": "The first_name Schema",
+            "examples": [
+                "Shamila"
+            ]
+        },
+        "first_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The first_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "foir": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The foir Schema",
+            "examples": [
+                28.82
+            ]
+        },
+        "gender": {
+            "type": "string",
+            "default": "",
+            "title": "The gender Schema",
+            "examples": [
+                "M"
+            ]
+        },
+        "gender_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The gender_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "gross_monthly_income": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The gross_monthly_income Schema",
+            "examples": [
+                77490.0
+            ]
+        },
+        "gst_annual_turnover": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The gst_annual_turnover Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "highmark_score": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The highmark_score Schema",
+            "examples": [
+                657.0
+            ]
+        },
+        "ifsc_code": {
+            "type": "string",
+            "default": "",
+            "title": "The ifsc_code Schema",
+            "examples": [
+                "HDFC0000000"
+            ]
+        },
+        "income_source": {
+            "type": "string",
+            "default": "",
+            "title": "The income_source Schema",
+            "examples": [
+                "Fund transfer"
+            ]
+        },
+        "insr": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The insr Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "insurance_amount": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The insurance_amount Schema",
+            "examples": [
+                3940.0
+            ]
+        },
+        "insurance_nominee_details": {
+            "type": "string",
+            "default": "",
+            "title": "The insurance_nominee_details Schema",
+            "examples": [
+                "Prakash Murthy"
+            ]
+        },
+        "insurance_nominee_details_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The insurance_nominee_details_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "insurance_policy_number": {
+            "type": "string",
+            "default": "",
+            "title": "The insurance_policy_number Schema",
+            "examples": [
+                "NA"
+            ]
+        },
+        "insurance_premium": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The insurance_premium Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "insurance_relationship": {
+            "type": "string",
+            "default": "",
+            "title": "The insurance_relationship Schema",
+            "examples": [
+                "spouse"
+            ]
+        },
+        "interest_coverage_ratio": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The interest_coverage_ratio Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "interest_on_debt": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The interest_on_debt Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "last_name": {
+            "type": "string",
+            "default": "",
+            "title": "The last_name Schema",
+            "examples": [
+                "Bang"
+            ]
+        },
+        "last_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The last_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "limit_id": {
+            "type": "string",
+            "default": "",
+            "title": "The limit_id Schema",
+            "examples": [
+                "VVT_CRED_PROD_123456"
+            ]
+        },
+        "long_term_liabilities": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The long_term_liabilities Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "ltr": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ltr Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "mailing_address": {
+            "type": "string",
+            "default": "",
+            "title": "The mailing_address Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "mailing_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The mailing_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "marital_status": {
+            "type": "string",
+            "default": "",
+            "title": "The marital_status Schema",
+            "examples": [
+                "Single"
+            ]
+        },
+        "marital_status_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The marital_status_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "max_dpd_tradeline_last_12months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The max_dpd_tradeline_last_12months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "max_dpd_tradeline_last_3months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The max_dpd_tradeline_last_3months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "max_dpd_tradeline_last_6months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The max_dpd_tradeline_last_6months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "max_overdue_tradeline": {
+            "type": "integer",
+            "default": 0,
+            "title": "The max_overdue_tradeline Schema",
+            "examples": [
+                9706
+            ]
+        },
+        "middle_name": {
+            "type": "string",
+            "default": "",
+            "title": "The middle_name Schema",
+            "examples": [
+                "A"
+            ]
+        },
+        "middle_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The middle_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "mobile_number": {
+            "type": "array",
+            "default": [],
+            "title": "The mobile_number Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "String1",
+                    "String2"
+                ]
+            },
+            "examples": [
+                ["String1",
+                    "String2"
+                ]
+            ]
+        },
+        "mobile_verification_flag": {
+            "type": "string",
+            "default": "",
+            "title": "The mobile_verification_flag Schema",
+            "examples": [
+                "true"
+            ]
+        },
+        "mobile_verification_flag_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The mobile_verification_flag_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "monthly_household_income_greater_than_25000": {
+            "type": "string",
+            "default": "",
+            "title": "The monthly_household_income_greater_than_25000 Schema",
+            "examples": [
+                "true"
+            ]
+        },
+        "monthly_installment_amount": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The monthly_installment_amount Schema",
+            "examples": [
+                12771.622
+            ]
+        },
+        "monthly_net_profit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The monthly_net_profit Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "more_than_30_dpd_in_last_3_months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The more_than_30_dpd_in_last_3_months Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "more_than_90_dpd_in_last_4_months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The more_than_90_dpd_in_last_4_months Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "mother_name": {
+            "type": "string",
+            "default": "",
+            "title": "The mother_name Schema",
+            "examples": [
+                "Shwetha"
+            ]
+        },
+        "mother_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The mother_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "name_of_bureau": {
+            "type": "string",
+            "default": "",
+            "title": "The name_of_bureau Schema",
+            "examples": [
+                "equifax"
+            ]
+        },
+        "name_of_profession": {
+            "type": "string",
+            "default": "",
+            "title": "The name_of_profession Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "name_of_profession_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The name_of_profession_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "nationality": {
+            "type": "string",
+            "default": "",
+            "title": "The nationality Schema",
+            "examples": [
+                "indian"
+            ]
+        },
+        "nationality_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The nationality_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "nature_of_loan_settled1": {
+            "type": "string",
+            "default": "",
+            "title": "The nature_of_loan_settled1 Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "nature_of_loan_settled2": {
+            "type": "string",
+            "default": "",
+            "title": "The nature_of_loan_settled2 Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "net_business_income": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The net_business_income Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "net_monthly_income": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The net_monthly_income Schema",
+            "examples": [
+                30000.0
+            ]
+        },
+        "no_of_dependants_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The no_of_dependants_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "number_of_30plus_dpd_in_last_12months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_30plus_dpd_in_last_12months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_30plus_dpd_in_last_3months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_30plus_dpd_in_last_3months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_60plus_dpd_in_last_6months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_60plus_dpd_in_last_6months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_bank_transactions": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_bank_transactions Schema",
+            "examples": [
+                153
+            ]
+        },
+        "number_of_credit_cards": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_credit_cards Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_dependants": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_dependants Schema",
+            "examples": [
+                3
+            ]
+        },
+        "number_of_enquiries_12months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_enquiries_12months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_enquiries_3months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_enquiries_3months Schema",
+            "examples": [
+                2
+            ]
+        },
+        "number_of_enquiries_6months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_enquiries_6months Schema",
+            "examples": [
+                4
+            ]
+        },
+        "number_of_inward_chq_returns_current_account": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_inward_chq_returns_current_account Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_inward_chq_returns_savings_account": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_inward_chq_returns_savings_account Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_inward_transactions": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_inward_transactions Schema",
+            "examples": [
+                153
+            ]
+        },
+        "number_of_others_writeoffsub_loss_dbt_settled_last_12months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The number_of_others_writeoffsub_loss_dbt_settled_last_12months Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "number_of_outward_chq_returns_current_account": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_outward_chq_returns_current_account Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_outward_chq_returns_savings_account": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_outward_chq_returns_savings_account Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_pl_enquiries_in_last_30days": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_pl_enquiries_in_last_30days Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_writeoff_suitfiled_settled_in_the_last_12months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_writeoff_suitfiled_settled_in_the_last_12months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number_of_writeoff_suitfiled_settled_in_the_last_36months": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_writeoff_suitfiled_settled_in_the_last_36months Schema",
+            "examples": [
+                12
+            ]
+        },
+        "number+of_cc_pl_writeoffsub_loss_dbt_settled_last_12months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The number+of_cc_pl_writeoffsub_loss_dbt_settled_last_12months Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "occupation": {
+            "type": "string",
+            "default": "",
+            "title": "The occupation Schema",
+            "examples": [
+                "Business"
+            ]
+        },
+        "occupation_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The occupation_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "official_email_id": {
+            "type": "array",
+            "default": [],
+            "title": "The official_email_id Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "String1",
+                    "String2"
+                ]
+            },
+            "examples": [
+                ["String1",
+                    "String2"
+                ]
+            ]
+        },
+        "opening_limit_balance": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The opening_limit_balance Schema",
+            "examples": [
+                500000.0
+            ]
+        },
+        "other_income": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The other_income Schema",
+            "examples": [
+                10000.0
+            ]
+        },
+        "partner_branch_code": {
+            "type": "string",
+            "default": "",
+            "title": "The partner_branch_code Schema",
+            "examples": [
+                "1080"
+            ]
+        },
+        "partner_branch_name": {
+            "type": "string",
+            "default": "",
+            "title": "The partner_branch_name Schema",
+            "examples": [
+                "SURAT_MSC"
+            ]
+        },
+        "partner_score": {
+            "type": "integer",
+            "default": 0,
+            "title": "The partner_score Schema",
+            "examples": [
+                743
+            ]
+        },
+        "partner_score_on_the_customer": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The partner_score_on_the_customer Schema",
+            "examples": [
+                2500.0
+            ]
+        },
+        "partner_score_on_the_customer_including_bureau_report": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The partner_score_on_the_customer_including_bureau_report Schema",
+            "examples": [
+                85.0
+            ]
+        },
+        "permanent_address": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_address Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "permanent_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "permanent_city": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_city Schema",
+            "examples": [
+                "Vizag"
+            ]
+        },
+        "permanent_city_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_city_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "permanent_city_tier": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_city_tier Schema",
+            "examples": [
+                "tier4"
+            ]
+        },
+        "permanent_city_tier_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_city_tier_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "permanent_district": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_district Schema",
+            "examples": [
+                "PRAKASAM"
+            ]
+        },
+        "permanent_district_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_district_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "permanent_pincode": {
+            "type": "integer",
+            "default": 0,
+            "title": "The permanent_pincode Schema",
+            "examples": [
+                585211
+            ]
+        },
+        "permanent_pincode_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_pincode_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "permanent_state": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_state Schema",
+            "examples": [
+                "KARNATAKA"
+            ]
+        },
+        "permanent_state_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The permanent_state_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "phone_number": {
+            "type": "string",
+            "default": "",
+            "title": "The phone_number Schema",
+            "examples": [
+                "1234567890"
+            ]
+        },
+        "phone_number_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The phone_number_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "pincode_verified": {
+            "type": "string",
+            "default": "",
+            "title": "The pincode_verified Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "pincode_verified_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The pincode_verified_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "place_of_birth": {
+            "type": "string",
+            "default": "",
+            "title": "The place_of_birth Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "place_of_birth_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The place_of_birth_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "politically_exposed": {
+            "type": "string",
+            "default": "",
+            "title": "The politically_exposed Schema",
+            "examples": [
+                "f"
+            ]
+        },
+        "property_ownership_flag": {
+            "type": "string",
+            "default": "",
+            "title": "The property_ownership_flag Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "ration_number": {
+            "type": "string",
+            "default": "",
+            "title": "The ration_number Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "ration_number_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The ration_number_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "references": {
+            "type": "object",
+            "default": {},
+            "title": "The references Schema",
+            "required": [
+                "address",
+                "name",
+                "name_ciphertext",
+                "phone",
+                "phone_ciphertext",
+                "pincode",
+                "pincode_ciphertext"
+            ],
+            "properties": {
+                "address": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The address Schema",
+                    "examples": [
+                        "String"
+                    ]
+                },
+                "name": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The name Schema",
+                    "examples": [
+                        "String"
+                    ]
+                },
+                "name_ciphertext": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The name_ciphertext Schema",
+                    "examples": [
+                        "text"
+                    ]
+                },
+                "phone": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The phone Schema",
+                    "examples": [
+                        "1234567890"
+                    ]
+                },
+                "phone_ciphertext": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The phone_ciphertext Schema",
+                    "examples": [
+                        "text"
+                    ]
+                },
+                "pincode": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pincode Schema",
+                    "examples": [
+                        123456
+                    ]
+                },
+                "pincode_ciphertext": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The pincode_ciphertext Schema",
+                    "examples": [
+                        "text"
+                    ]
+                }
+            },
+            "examples": [{
+                "address": "String",
+                "name": "String",
+                "name_ciphertext": "text",
+                "phone": "1234567890",
+                "phone_ciphertext": "text",
+                "pincode": 123456,
+                "pincode_ciphertext": "text"
+            }]
+        },
+        "relationship_proof": {
+            "type": "string",
+            "default": "",
+            "title": "The relationship_proof Schema",
+            "examples": [
+                "AadharCard"
+            ]
+        },
+        "relationship_proof_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The relationship_proof_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "relationship_with_applicant": {
+            "type": "string",
+            "default": "",
+            "title": "The relationship_with_applicant Schema",
+            "examples": [
+                "spouse"
+            ]
+        },
+        "religion": {
+            "type": "string",
+            "default": "",
+            "title": "The religion Schema",
+            "examples": [
+                "Muslim"
+            ]
+        },
+        "residence_type_current_address": {
+            "type": "string",
+            "default": "",
+            "title": "The residence_type_current_address Schema",
+            "examples": [
+                "owned"
+            ]
+        },
+        "residence_type_current_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The residence_type_current_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "residence_type_permanent_address": {
+            "type": "string",
+            "default": "",
+            "title": "The residence_type_permanent_address Schema",
+            "examples": [
+                "owned"
+            ]
+        },
+        "residence_type_permanent_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The residence_type_permanent_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "residing_with_applicant": {
+            "type": "string",
+            "default": "",
+            "title": "The residing_with_applicant Schema",
+            "examples": [
+                "true"
+            ]
+        },
+        "risk_category": {
+            "type": "string",
+            "default": "",
+            "title": "The risk_category Schema",
+            "examples": [
+                "2"
+            ]
+        },
+        "rp_contact_ref_id": {
+            "type": "string",
+            "default": "",
+            "title": "The rp_contact_ref_id Schema",
+            "examples": [
+                "cont_H1W7SmnJaHSJdF"
+            ]
+        },
+        "rp_fund_account_id": {
+            "type": "string",
+            "default": "",
+            "title": "The rp_fund_account_id Schema",
+            "examples": [
+                "fa_H1UMppMmz2voNR"
+            ]
+        },
+        "selfie_check_flag": {
+            "type": "string",
+            "default": "",
+            "title": "The selfie_check_flag Schema",
+            "examples": [
+                "true"
+            ]
+        },
+        "selfie_check_flag_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The selfie_check_flag_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "sherlock_score": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The sherlock_score Schema",
+            "examples": [
+                95.0
+            ]
+        },
+        "short_term_liabilities": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The short_term_liabilities Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "spouse_name": {
+            "type": "string",
+            "default": "",
+            "title": "The spouse_name Schema",
+            "examples": [
+                "Geetha"
+            ]
+        },
+        "spouse_name_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The spouse_name_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "sub_relationship_with_applicant": {
+            "type": "string",
+            "default": "",
+            "title": "The sub_relationship_with_applicant Schema",
+            "examples": [
+                "Spouse"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "Mr"
+            ]
+        },
+        "total_approved_limit": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_approved_limit Schema",
+            "examples": [
+                500000.0
+            ]
+        },
+        "total_business_income_turnover": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_business_income_turnover Schema",
+            "examples": [
+                800000.0
+            ]
+        },
+        "total_emi_bounces": {
+            "type": "integer",
+            "default": 0,
+            "title": "The total_emi_bounces Schema",
+            "examples": [
+                3
+            ]
+        },
+        "total_existing_obligations": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_existing_obligations Schema",
+            "examples": [
+                4.0
+            ]
+        },
+        "total_net_worth": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_net_worth Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "total_number_of_loans": {
+            "type": "integer",
+            "default": 0,
+            "title": "The total_number_of_loans Schema",
+            "examples": [
+                36
+            ]
+        },
+        "total_number_of_unsecured_loans": {
+            "type": "integer",
+            "default": 0,
+            "title": "The total_number_of_unsecured_loans Schema",
+            "examples": [
+                1
+            ]
+        },
+        "total_overdue_amount_in_last_12months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_overdue_amount_in_last_12months Schema",
+            "examples": [
+                3732.0
+            ]
+        },
+        "total_work_experience": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total_work_experience Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "udyam_number": {
+            "type": "string",
+            "default": "",
+            "title": "The udyam_number Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "udyam_number_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The udyam_number_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "value_of_total_loans": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The value_of_total_loans Schema",
+            "examples": [
+                1245000.0
+            ]
+        },
+        "value_of_total_outstanding_loans": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The value_of_total_outstanding_loans Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "value_of_total_unsecured_loans": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The value_of_total_unsecured_loans Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "viability_ratio": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The viability_ratio Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "writeoff_amount_suitfiled_settled_in_last_36_months": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The writeoff_amount_suitfiled_settled_in_last_36_months Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "years_of_stay_in_current_address": {
+            "type": "integer",
+            "default": 0,
+            "title": "The years_of_stay_in_current_address Schema",
+            "examples": [
+                4
+            ]
+        },
+        "years_of_stay_in_current_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The years_of_stay_in_current_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        },
+        "years_of_stay_in_permanent_address": {
+            "type": "integer",
+            "default": 0,
+            "title": "The years_of_stay_in_permanent_address Schema",
+            "examples": [
+                16
+            ]
+        },
+        "years_of_stay_in_permanent_address_ciphertext": {
+            "type": "string",
+            "default": "",
+            "title": "The years_of_stay_in_permanent_address_ciphertext Schema",
+            "examples": [
+                "text"
+            ]
+        }
+    },
+    "examples": [{
+        "aadhar_name_match": "true",
+        "aadhar_name_match_ciphertext": "text",
+        "aadhar_number": "xxxx-xxxx-6101",
+        "aadhar_reference": "4bcfdcc8b4109aeb3c8e7c94eca06b87",
+        "abb_emi_ratio": 104.0,
+        "account_no": "4190101000447039",
+        "account_no_ciphertext": "text",
+        "age": 40,
+        "age_ciphertext": "text",
+        "amount_of_loan_settled_in_last_12months": 12.5,
+        "annual_business_ebitda": 12.5,
+        "annual_business_turnover": 2400000.0,
+        "annual_gross_profit": 31069.6,
+        "annual_income": "450000",
+        "annual_net_income": 22269.0,
+        "annual_net_profit": 12.5,
+        "average_bank_balance": 7584.792,
+        "average_bank_deposit": 126791.0,
+        "bank_account_name": "JAGANNATHHATI",
+        "bank_account_type_for_assessment": "String",
+        "bank_branch_name": "NA",
+        "bank_name": "STATE BANK OF INDIA",
+        "borrower_type_id": 1,
+        "bounces_in_last_12months": 12,
+        "bounces_in_last_6months": 2,
+        "bureau_score": 639,
+        "bureau_vintage": 12,
+        "ca_limit_balance":
+            -
+            482158.42,
+        "ca_total_limit": 500000.0,
+        "caste": "GENERAL",
+        "caution_negative_profile": "t",
+        "cibil_score": 776,
+        "ckyc_download_identifier": "11745126",
+        "client_credit_score": 8180.0,
+        "client_customer_id": "00017580-333d-11ec-a40a-29e90c1592c2",
+        "closing_limit_balance": 6100.0,
+        "commercial_bureau_score": 12,
+        "country_of_employment_if_nri": "String",
+        "credit_card_limit": 45000.0,
+        "credit_remarks": "String",
+        "credit_summation": "String",
+        "currency_of_income_considered": "INR",
+        "current_address": "String",
+        "current_address_ciphertext": "text",
+        "current_assests": 12.5,
+        "current_city": "VISAKHAPATNAM",
+        "current_city_ciphertext": "text",
+        "current_city_tier": "tier4",
+        "current_city_tier_ciphertext": "text",
+        "current_country": "INDIA",
+        "current_country_ciphertext": "text",
+        "current_district": "VISAKHAPATNAM",
+        "current_district_ciphertext": "text",
+        "current_liabilities": 12.5,
+        "current_pincode": 530000,
+        "current_pincode_ciphertext": "text",
+        "current_ratio": 12.5,
+        "current_state": "KARNATAKA",
+        "current_state_ciphertext": "text",
+        "current_village": "String",
+        "current_village_ciphertext": "text",
+        "customer_category": "Student",
+        "customer_category_ciphertext": "text",
+        "customer_type": "Individual",
+        "date_of_birth_ciphertext": "text",
+        "dedupe_status": "Failed",
+        "disposable_income": 50409.0,
+        "dpd_days_last_1_month": 12,
+        "dpd_days_last_3_months": 12,
+        "dpd_on_partner": 12,
+        "driving_license_number": "KA1720200004445",
+        "driving_license_number_ciphertext": "text",
+        "dscr": 4.13,
+        "education_qualification": "String",
+        "eligibility_as_per_foir": 0.0,
+        "eligibility_as_per_insr": 0.0,
+        "eligibility_as_per_ltv": 0.0,
+        "eligibility_loan_amount": 75000.0,
+        "email": [
+            "String1",
+            "String2"
+        ],
+        "emi_obligations": 2400.0,
+        "employer_category": "String",
+        "employer_tier": "tier_2",
+        "employment_details": "String",
+        "employment_details_address": "String",
+        "employment_details_address_ciphertext": "text",
+        "employment_details_ciphertext": "text",
+        "employment_details_designation": "Human Resources",
+        "employment_details_designation_ciphertext": "text",
+        "employment_details_name": "Pritam solutions",
+        "employment_details_name_ciphertext": "text",
+        "employment_details_years_of_experience": 10.0833,
+        "employment_type": "Salaried",
+        "employment_vintage_current_organisation": "0",
+        "father_name": "SAB",
+        "father_name_ciphertext": "text",
+        "fcf": 0.0,
+        "financial_leverage": 12.5,
+        "financial_type": "String",
+        "first_name": "Shamila",
+        "first_name_ciphertext": "text",
+        "foir": 28.82,
+        "gender": "M",
+        "gender_ciphertext": "text",
+        "gross_monthly_income": 77490.0,
+        "gst_annual_turnover": 12.5,
+        "highmark_score": 657.0,
+        "ifsc_code": "HDFC0000000",
+        "income_source": "Fund transfer",
+        "insr": 0.0,
+        "insurance_amount": 3940.0,
+        "insurance_nominee_details": "Prakash Murthy",
+        "insurance_nominee_details_ciphertext": "text",
+        "insurance_policy_number": "NA",
+        "insurance_premium": 0.0,
+        "insurance_relationship": "spouse",
+        "interest_coverage_ratio": 12.5,
+        "interest_on_debt": 12.5,
+        "last_name": "Bang",
+        "last_name_ciphertext": "text",
+        "limit_id": "VVT_CRED_PROD_123456",
+        "long_term_liabilities": 12.5,
+        "ltr": 0.0,
+        "mailing_address": "String",
+        "mailing_address_ciphertext": "text",
+        "marital_status": "Single",
+        "marital_status_ciphertext": "text",
+        "max_dpd_tradeline_last_12months": 12,
+        "max_dpd_tradeline_last_3months": 12,
+        "max_dpd_tradeline_last_6months": 12,
+        "max_overdue_tradeline": 9706,
+        "middle_name": "A",
+        "middle_name_ciphertext": "text",
+        "mobile_number": [
+            "String1",
+            "String2"
+        ],
+        "mobile_verification_flag": "true",
+        "mobile_verification_flag_ciphertext": "text",
+        "monthly_household_income_greater_than_25000": "true",
+        "monthly_installment_amount": 12771.622,
+        "monthly_net_profit": 12.5,
+        "more_than_30_dpd_in_last_3_months": 12.5,
+        "more_than_90_dpd_in_last_4_months": 12.5,
+        "mother_name": "Shwetha",
+        "mother_name_ciphertext": "text",
+        "name_of_bureau": "equifax",
+        "name_of_profession": "String",
+        "name_of_profession_ciphertext": "text",
+        "nationality": "indian",
+        "nationality_ciphertext": "text",
+        "nature_of_loan_settled1": "String",
+        "nature_of_loan_settled2": "String",
+        "net_business_income": 12.5,
+        "net_monthly_income": 30000.0,
+        "no_of_dependants_ciphertext": "text",
+        "number_of_30plus_dpd_in_last_12months": 12,
+        "number_of_30plus_dpd_in_last_3months": 12,
+        "number_of_60plus_dpd_in_last_6months": 12,
+        "number_of_bank_transactions": 153,
+        "number_of_credit_cards": 12,
+        "number_of_dependants": 3,
+        "number_of_enquiries_12months": 12,
+        "number_of_enquiries_3months": 2,
+        "number_of_enquiries_6months": 4,
+        "number_of_inward_chq_returns_current_account": 12,
+        "number_of_inward_chq_returns_savings_account": 12,
+        "number_of_inward_transactions": 153,
+        "number_of_others_writeoffsub_loss_dbt_settled_last_12months": 12.5,
+        "number_of_outward_chq_returns_current_account": 12,
+        "number_of_outward_chq_returns_savings_account": 12,
+        "number_of_pl_enquiries_in_last_30days": 12,
+        "number_of_writeoff_suitfiled_settled_in_the_last_12months": 12,
+        "number_of_writeoff_suitfiled_settled_in_the_last_36months": 12,
+        "number+of_cc_pl_writeoffsub_loss_dbt_settled_last_12months": 12.5,
+        "occupation": "Business",
+        "occupation_ciphertext": "text",
+        "official_email_id": [
+            "String1",
+            "String2"
+        ],
+        "opening_limit_balance": 500000.0,
+        "other_income": 10000.0,
+        "partner_branch_code": "1080",
+        "partner_branch_name": "SURAT_MSC",
+        "partner_score": 743,
+        "partner_score_on_the_customer": 2500.0,
+        "partner_score_on_the_customer_including_bureau_report": 85.0,
+        "permanent_address": "String",
+        "permanent_address_ciphertext": "text",
+        "permanent_city": "Vizag",
+        "permanent_city_ciphertext": "text",
+        "permanent_city_tier": "tier4",
+        "permanent_city_tier_ciphertext": "text",
+        "permanent_district": "PRAKASAM",
+        "permanent_district_ciphertext": "text",
+        "permanent_pincode": 585211,
+        "permanent_pincode_ciphertext": "text",
+        "permanent_state": "KARNATAKA",
+        "permanent_state_ciphertext": "text",
+        "phone_number": "1234567890",
+        "phone_number_ciphertext": "text",
+        "pincode_verified": "String",
+        "pincode_verified_ciphertext": "text",
+        "place_of_birth": "String",
+        "place_of_birth_ciphertext": "text",
+        "politically_exposed": "f",
+        "property_ownership_flag": "String",
+        "ration_number": "String",
+        "ration_number_ciphertext": "text",
+        "references": {
+            "address": "String",
+            "name": "String",
+            "name_ciphertext": "text",
+            "phone": "1234567890",
+            "phone_ciphertext": "text",
+            "pincode": 123456,
+            "pincode_ciphertext": "text"
+        },
+        "relationship_proof": "AadharCard",
+        "relationship_proof_ciphertext": "text",
+        "relationship_with_applicant": "spouse",
+        "religion": "Muslim",
+        "residence_type_current_address": "owned",
+        "residence_type_current_address_ciphertext": "text",
+        "residence_type_permanent_address": "owned",
+        "residence_type_permanent_address_ciphertext": "text",
+        "residing_with_applicant": "true",
+        "risk_category": "2",
+        "rp_contact_ref_id": "cont_H1W7SmnJaHSJdF",
+        "rp_fund_account_id": "fa_H1UMppMmz2voNR",
+        "selfie_check_flag": "true",
+        "selfie_check_flag_ciphertext": "text",
+        "sherlock_score": 95.0,
+        "short_term_liabilities": 12.5,
+        "spouse_name": "Geetha",
+        "spouse_name_ciphertext": "text",
+        "sub_relationship_with_applicant": "Spouse",
+        "title": "Mr",
+        "total_approved_limit": 500000.0,
+        "total_business_income_turnover": 800000.0,
+        "total_emi_bounces": 3,
+        "total_existing_obligations": 4.0,
+        "total_net_worth": 12.5,
+        "total_number_of_loans": 36,
+        "total_number_of_unsecured_loans": 1,
+        "total_overdue_amount_in_last_12months": 3732.0,
+        "total_work_experience": 0.0,
+        "udyam_number": "String",
+        "udyam_number_ciphertext": "text",
+        "value_of_total_loans": 1245000.0,
+        "value_of_total_outstanding_loans": 12.5,
+        "value_of_total_unsecured_loans": 12.5,
+        "viability_ratio": 0.0,
+        "writeoff_amount_suitfiled_settled_in_last_36_months": 12.5,
+        "years_of_stay_in_current_address": 4,
+        "years_of_stay_in_current_address_ciphertext": "text",
+        "years_of_stay_in_permanent_address": 16,
+        "years_of_stay_in_permanent_address_ciphertext": "text"
+    }]
+}
