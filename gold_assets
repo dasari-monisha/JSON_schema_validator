@@ -109,7 +109,6 @@
             ],
             "title": "The metal_rate_considered Schema",
             "examples": [
-                "4809.0000",
                 5150.0
             ]
         },
@@ -313,7 +312,6 @@
         "impurity_weight_for_deduction": 12.5,
         "jewellery_id": "string",
         "jewellery_name": "string",
-        "metal_rate_considered": "4809.0000",
         "net_value_of_jewellery": 12.5,
         "net_value_of_jewellery_and_metal": 11571.73,
         "net_value_of_metal": 12.5,
