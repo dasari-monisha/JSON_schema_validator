@@ -248,9 +248,72 @@
         "years_of_stay_in_current_address",
         "years_of_stay_in_current_address_ciphertext",
         "years_of_stay_in_permanent_address",
-        "years_of_stay_in_permanent_address_ciphertext"
+        "years_of_stay_in_permanent_address_ciphertext",
+        "name",
+        "past_deliquency",
+        "past_dpd",
+        "borrower_profile",
+        "short_name",
+        "permanent_address_1",
+        "permanent_address_2"
     ],
     "properties": {
+      "name": {
+        "type": "string",
+        "default": "",
+        "title": "The name Schema",
+        "examples": [
+            "USHARANI MANDAL / CHANDRAKANTA MANDAL(75)"
+        ]
+    },
+    "past_deliquency": {
+        "type": "string",
+        "default": "",
+        "title": "The past_deliquency Schema",
+        "examples": [
+            "String"
+        ]
+    },
+    "past_dpd": {
+        "type": "string",
+        "default": "",
+        "title": "The past_dpd Schema",
+        "examples": [
+            "String"
+        ]
+    },
+    "borrower_profile": {
+        "type": "string",
+        "default": "",
+        "title": "The borrower_profile Schema",
+        "examples": [
+            "38/B  NILKANTH SOCIETY  NR. SHIVPARK SOCIETY  B/H. RAM RAJYA NAGAR  AMRAIWADI AHMEDABAD GUJARAT-380026"
+        ]
+    },
+    "short_name": {
+        "type": "string",
+        "default": "",
+        "title": "The short_name Schema",
+        "examples": [
+            "Raj  kumar"
+        ]
+    },
+    "permanent_address_1": {
+        "type": "string",
+        "default": "",
+        "title": "The permanent_address_1 Schema",
+        "examples": [
+            "String"
+        ]
+    },
+    "permanent_address_2": {
+        "type": "string",
+        "default": "",
+        "title": "The permanent_address_2 Schema",
+        "examples": [
+            "String"
+        ]
+    },
         "aadhar_name_match": {
             "type": "string",
             "default": "",
@@ -2571,6 +2634,13 @@
         "years_of_stay_in_current_address": 4,
         "years_of_stay_in_current_address_ciphertext": "text",
         "years_of_stay_in_permanent_address": 16,
-        "years_of_stay_in_permanent_address_ciphertext": "text"
+        "years_of_stay_in_permanent_address_ciphertext": "text",
+        "name": "USHARANI MANDAL / CHANDRAKANTA MANDAL(75)",
+        "past_deliquency": "String",
+        "past_dpd": "String",
+        "borrower_profile": "38/B  NILKANTH SOCIETY  NR. SHIVPARK SOCIETY  B/H. RAM RAJYA NAGAR  AMRAIWADI AHMEDABAD GUJARAT-380026",
+        "short_name": "Raj  kumar",
+        "permanent_address_1": "String",
+        "permanent_address_2": "String"
     }]
 }
