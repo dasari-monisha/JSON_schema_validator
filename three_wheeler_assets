@@ -1,0 +1,53 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "asset_insurance_amount",
+        "chassis_number",
+        "engine_number",
+        "vehicle_number"
+    ],
+    "properties": {
+        "asset_insurance_amount": {
+            "type": "integer",
+            "default": 0,
+            "title": "The asset_insurance_amount Schema",
+            "examples": [
+                50000
+            ]
+        },
+        "chassis_number": {
+            "type": "string",
+            "default": "",
+            "title": "The chassis_number Schema",
+            "examples": [
+                "2015jfrkfjn76"
+            ]
+        },
+        "engine_number": {
+            "type": "string",
+            "default": "",
+            "title": "The engine_number Schema",
+            "examples": [
+                "78923908423748"
+            ]
+        },
+        "vehicle_number": {
+            "type": "string",
+            "default": "",
+            "title": "The vehicle_number Schema",
+            "examples": [
+                "AB 12 CD 3456"
+            ]
+        }
+    },
+    "examples": [{
+        "asset_insurance_amount": 50000,
+        "chassis_number": "2015jfrkfjn76",
+        "engine_number": "78923908423748",
+        "vehicle_number": "AB 12 CD 3456"
+    }]
+}
