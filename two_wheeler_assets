@@ -38,9 +38,27 @@
         "vehicle_reg_no",
         "vehicle_seat_capacity",
         "vehicle_type_used_or_new",
-        "vehicle_variant"
+        "vehicle_variant",
+        "vehicle_number",
+        "manufacturer_name"
     ],
     "properties": {
+      "vehicle_number": {
+        "type": "string",
+        "default": "",
+        "title": "The vehicle_number Schema",
+        "examples": [
+            "AB 12 CD 3456"
+        ]
+    },
+    "manufacturer_name": {
+        "type": "string",
+        "default": "",
+        "title": "The manufacturer_name Schema",
+        "examples": [
+            "Honda"
+        ]
+    },
         "chassis_number": {
             "type": "string",
             "default": "",
@@ -354,6 +372,8 @@
         "vehicle_reg_no": "MH26BY4308",
         "vehicle_seat_capacity": "2",
         "vehicle_type_used_or_new": "new",
-        "vehicle_variant": "goods"
+        "vehicle_variant": "goods",
+        "vehicle_number": "AB 12 CD 3456",
+        "manufacturer_name": "Honda"
     }]
 }
