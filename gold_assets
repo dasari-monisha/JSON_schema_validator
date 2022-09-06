@@ -35,9 +35,27 @@
         "reference_number",
         "source_id",
         "source_name",
-        "udhayam_registration_number"
+        "udhayam_registration_number",
+        "asset_insurance_amount",
+        "original_ltv"
     ],
     "properties": {
+      "asset_insurance_amount": {
+        "type": "integer",
+        "default": 0,
+        "title": "The asset_insurance_amount Schema",
+        "examples": [
+            50000
+        ]
+    },
+    "original_ltv": {
+        "type": "number",
+        "default": 0.0,
+        "title": "The original_ltv Schema",
+        "examples": [
+            6914.0
+        ]
+    },
         "gold_rate_considered": {
             "type": "number",
             "default": 0.0,
@@ -57,8 +75,7 @@
             "type": "number",
             "title": "The gross_weight_of_jewellery Schema",
             "examples": [
-                14.3,
-                12.5
+                14.3
             ]
         },
         "impurity_weight_for_deduction": {
@@ -123,8 +140,7 @@
             "type": "number",
             "title": "The net_weight_of_jewellery Schema",
             "examples": [
-                2.75,
-                28.1
+                2.75
             ]
         },
         "purity_grade": {
@@ -289,6 +305,8 @@
         }
     },
     "examples": [{
+      "asset_insurance_amount": 50000,
+        "original_ltv": 6914.0,
         "gold_rate_considered": 12.5,
         "gross_value_of_jewellery": 12.5,
         "gross_weight_of_jewellery": 14.3,
@@ -309,16 +327,12 @@
         "comments": "string",
         "customer_income_group": "string",
         "geo_class": "string",
-        "gross_value_of_jewellery": 12.5,
-        "gross_weight_of_jewellery": 12.5,
         "land_holding_description": "string",
         "land_holding_type": "string",
         "land_holding_value_in_acres": 12.5,
         "loan_purpose_sub_category": "string",
         "ltv_percentage": 64.2734267188416,
         "metal_rate_considered": 5150.0,
-        "net_value_of_jewellery": 12.5,
-        "net_weight_of_jewellery": 28.1,
         "number_of_jewels": "string",
         "physically_challenged": "string",
         "reference_number": "string",
