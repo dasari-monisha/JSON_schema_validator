@@ -215,18 +215,14 @@
             "type": "number",
             "default": 0.0,
             "title": "The vehicle_age Schema",
-            "examples": [
-                -
-                798.0
+            "examples": [ 798.0
             ]
         },
         "vehicle_age_to_loan_maturity": {
             "type": "number",
             "default": 0.0,
             "title": "The vehicle_age_to_loan_maturity Schema",
-            "examples": [
-                -
-                3.5
+            "examples": [3.5
             ]
         },
         "vehicle_buyer_category": {
@@ -354,12 +350,8 @@
         "rc_in_hirer_name_ciphertext": "text",
         "rto_reg_number": "TN30CB3928",
         "type_of_vehicle": "new",
-        "vehicle_age":
-            -
-            798.0,
-        "vehicle_age_to_loan_maturity":
-            -
-            3.5,
+        "vehicle_age":798.0,
+        "vehicle_age_to_loan_maturity": 3.5,
         "vehicle_buyer_category": "b",
         "vehicle_buyer_type": "self_employed",
         "vehicle_category": "a",
