@@ -255,9 +255,137 @@
         "borrower_profile",
         "short_name",
         "permanent_address_1",
-        "permanent_address_2"
+        "permanent_address_2",
+        "entity_id",
+        "cin",
+        "ca_customer_id",
+        "customer_category",
+        "primary_contact",
+        "aum",
+        "industry",
+        "sub_industry",
+        "tier",
+        "rating",
+        "sector",
+        "annual_income_currency",
+        "rating_agency"
     ],
     "properties": {
+
+        "entity_id": {
+            "type": "string",
+            "default": "",
+            "title": "The entity_id Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "cin": {
+            "type": "string",
+            "default": "",
+            "title": "The cin Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "ca_customer_id": {
+            "type": "string",
+            "default": "",
+            "title": "The ca_customer_id Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "customer_category": {
+            "type": "array",
+            "default": [],
+            "title": "The customer_category Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "String1",
+                    "String2"
+                ]
+            },
+            "examples": [
+                ["String1",
+                    "String2"
+                ]
+            ]
+        },
+        "primary_contact": {
+            "type": "string",
+            "default": "",
+            "title": "The primary_contact Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "aum": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The aum Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "industry": {
+            "type": "string",
+            "default": "",
+            "title": "The industry Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "sub_industry": {
+            "type": "string",
+            "default": "",
+            "title": "The sub_industry Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "tier": {
+            "type": "integer",
+            "default": 0,
+            "title": "The tier Schema",
+            "examples": [
+                12
+            ]
+        },
+        "rating": {
+            "type": "string",
+            "default": "",
+            "title": "The rating Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "sector": {
+            "type": "string",
+            "default": "",
+            "title": "The sector Schema",
+            "examples": [
+                "String"
+            ]
+        },
+        "annual_income_currency": {
+            "type": "string",
+            "default": "",
+            "title": "The annual_income_currency Schema",
+            "examples": [
+                "INR"
+            ]
+        },
+        "rating_agency": {
+            "type": "string",
+            "default": "",
+            "title": "The rating_agency Schema",
+            "examples": [
+                "String"
+            ]
+        },
       "name": {
         "type": "string",
         "default": "",
@@ -2641,6 +2769,22 @@
         "borrower_profile": "38/B  NILKANTH SOCIETY  NR. SHIVPARK SOCIETY  B/H. RAM RAJYA NAGAR  AMRAIWADI AHMEDABAD GUJARAT-380026",
         "short_name": "Raj  kumar",
         "permanent_address_1": "String",
-        "permanent_address_2": "String"
+        "permanent_address_2": "String",
+        "entity_id": "String",
+        "cin": "String",
+        "ca_customer_id": "String",
+        "customer_category": [
+            "String1",
+            "String2"
+        ],
+        "primary_contact": "String",
+        "aum": 12.5,
+        "industry": "String",
+        "sub_industry": "String",
+        "tier": 12,
+        "rating": "String",
+        "sector": "String",
+        "annual_income_currency": "INR",
+        "rating_agency": "String"
     }]
 }
